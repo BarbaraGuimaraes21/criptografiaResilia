@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador/Decodificador - Cifra De Cesar | Base64</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;1,200&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="conteiner">
+        <form onchange="validaIncremento()">
+        <div class="display">
+            <h1> CODIFICADOR / DECODIFICADOR </h1>
+        </div>
+            <h3> Ferramenta para decodificar e codificar textos utilizando o método de codificação Base64 e Cifra de
+                César.
+            </h3>
+            <div id="codigo">
+                <select class="selecao">
+                    <option value="nada" selected> Selecione A Opção Desejada </option>
+                    <option value="cesar">Cifra de Cesar</option>
+                    <option value="b64">Base 64</option>
+            </div>
+            </select>
+            <div id="passo">
+                <p>Escolha seu passo:</p>
+                <input type="number" id="chave" value="0">
+            </div>
+            <div class="texto">
+                <br>
+                <p>Digite mensagem que deseja criptografar/descriptografar:</p>
+                <textarea id="texto" class="entrada" name="texto_digitado2" cols="70" rows="4"></textarea>
+                <br>
+            </div>
+            <div class="opcaocodigo">
+                <label for="codificar"><input type="radio" name="escolha" id="codificar"
+                        value="codificar">Codificar</label>
+                <label for="decodificar"><input type="radio" name="escolha" id="decodificar" value="decodificar">
+                    Decodificar</label>
+            </div>
+            <br>
+            <button class="codifica">Codificar</button>
+            <div class="mensagemdecodificada">
+                <br>
+                <textarea class="saida" cols="70" rows="4"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+
+</html>

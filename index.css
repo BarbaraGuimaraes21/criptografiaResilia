@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-image: url(https://images5.alphacoders.com/885/885377.png);
+    height: 100%;
+    width: 100%;
+}
+
+.conteiner {
+    min-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 180px;
+    height: 500px;
+    text-align: center;
+    padding:5px;
+    background-color: #F0F0F0;
+    margin: 60px 0 0px 180px;
+    box-shadow: 0px 0px 1em #C3C3C3;
+    -webkit-box-shadow: 0px 0px 1em #C3C3C3;
+    -moz-box-shadow: 0px 0px 1em #C3C3C3;
+}
+
+.display{
+    background-image: url(https://giffiles.alphacoders.com/360/36030.gif);
+    display: block;
+    min-width: 80vw;
+    height: 70px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    border-radius: 5px solid #00C900;
+}
+button {    
+    border: 1px solid #00C900;
+    background-color: #00C900;
+    border-radius: 5px;
+    color: #fff;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+textarea {
+    border: 1px solid rgb(121, 120, 120);
+}
+#passo{
+    text-align: center;
+    align-items: center;
+}
