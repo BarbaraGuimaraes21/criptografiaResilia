@@ -12,6 +12,13 @@ body {
     background-image: url(https://images5.alphacoders.com/885/885377.png);
     height: 100%;
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 93%;
 }
 
 .conteiner {
